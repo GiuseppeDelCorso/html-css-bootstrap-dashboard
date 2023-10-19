@@ -1,0 +1,42 @@
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background: #222;
+    color: white;
+}
+
+main {
+    height: 100%;
+    display: flex;
+}
+
+main > nav {
+    background: rgb(33, 33, 59);
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(img/sidebar-bg.png);
+}
+
+main > section {
+    height: 100%;
+    width: 90%;
+    background: rgb(255, 255, 255);
+}
+.color-celeste{
+    background-color: #317fe4;
+}
+.fs-7{
+font-size: 0.7rem;     
+}
+.fs-8{
+    font-size: 0.9rem;     
+    }
