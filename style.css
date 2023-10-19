@@ -10,9 +10,12 @@ body {
     background: #222;
     color: white;
 }
-
+header{
+    height: 50px;
+    background-color:  white;
+}
 main {
-    height: 100%;
+    height: calc(100% - 50px);
     display: flex;
 }
 
@@ -39,4 +42,14 @@ font-size: 0.7rem;
 }
 .fs-8{
     font-size: 0.9rem;     
-    }
+}
+.p-01{
+    padding: 0.1rem;
+}
+.pm-02{
+    padding: 2px 5px 2px 5px;
+    margin: 0px 3px 0px 3px;
+}
+.img_dimensioni{
+    width: 1.5rem;
+}
