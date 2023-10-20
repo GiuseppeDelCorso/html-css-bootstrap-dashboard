@@ -11,15 +11,15 @@ body {
     color: white;
 }
 header{
-    height: 50px;
+    height: 3.7rem;
     background-color:  white;
 }
 main {
-    height: calc(100% - 50px);
+    height: calc(100% - 3.7rem);
     display: flex;
 }
 
-main > nav {
+main > nav{
     background: rgb(33, 33, 59);
     height: 100%;
     width: 10%;
@@ -52,4 +52,15 @@ font-size: 0.7rem;
 }
 .img_dimensioni{
     width: 1.5rem;
+}
+.lunghezza_shearc_bar{
+    
+}
+.bell_color{
+    color: orange;
+    border-color: white;
+    background-color: white;
+}
+.dropdown-menu{
+    transform: translate3d(-115px, 40px, 0px);
 }
