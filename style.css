@@ -63,6 +63,9 @@ font-size: 0.7rem;
 .dropdown-menu{
     transform: translate3d(-115px, 40px, 0px);
 }
+.grandezza_logo{
+    width: 2.2rem;
+}
 
 
 
