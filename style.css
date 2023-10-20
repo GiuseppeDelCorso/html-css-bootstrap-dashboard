@@ -8,7 +8,6 @@ body {
     font-family: sans-serif;
     height: 100vh;
     background: #222;
-    color: white;
 }
 header{
     height: 3.7rem;
@@ -63,4 +62,43 @@ font-size: 0.7rem;
 }
 .dropdown-menu{
     transform: translate3d(-115px, 40px, 0px);
+}
+
+
+
+
+@media  (max-width: 576px){
+    
+    .lunghezza_shearc_bar{
+        width: 15rem;
+    }
+
+}
+@media  (min-width: 576px){
+    
+    .lunghezza_shearc_bar{
+        width: 32rem;
+    }
+
+}
+@media  (min-width: 768px){
+    
+    .lunghezza_shearc_bar{
+        width: 30rem;
+    }
+
+}
+@media  (min-width: 992px){
+    
+    .lunghezza_shearc_bar{
+        width: 40rem;
+    }
+
+}
+@media  (min-width: 1200px){
+    
+    .lunghezza_shearc_bar{
+        width: 45rem;
+    }
+
 }
